@@ -164,21 +164,27 @@ Topic: Variables and basic data types
 
 Instructions:
 Write a program that converts a temperature from Celsius to Fahrenheit.
+"""
 
+"""
 PROBLEM 2: Even or Odd Checker
 
 Topic: Conditionals
 
 Instructions:
 Write a program that checks whether a number is even or odd.
+"""
 
+"""
 PROBLEM 3: Count to Number
 
 Topic: Loops (for loop)
 
 Instructions:
 Write a program that takes a positive integer n and prints all numbers from 1 to n, one per line.
+"""
 
+"""
 PROBLEM 4: Password Retry System
 
 Topic: Loops (while loop) + Conditionals
@@ -198,22 +204,26 @@ Write a function called find_max(numbers) that takes a list of numbers and retur
 
 Input: A list of integers.
 Output: The largest integer in the list.
+"""
 
-
+"""
 PROBLEM 6:Sum of Multiples
 
 Topic: Loops + Conditionals + Functions
 
 Instructions:
 Write a function sum_of_multiples(n) that returns the sum of all numbers from 1 to n that are divisible by 3 or 5.
+"""
 
+"""
 PROBLEM 7:Remove Even Numbers
 
 Topic: Lists + Loops + Functions
 
 Instructions:
 Write a function remove_evens(numbers) that takes a list of integers and returns a new list with all even numbers removed.
-
+"""
+"""""
 Example:
 Problem: Write a function called 'is_even' that takes an integer and returns 
 True if the number is even, False if it's odd.
