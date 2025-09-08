@@ -155,9 +155,6 @@ Output: [1, 3, 5]
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
-
 PROBLEM 1: Temperature Converter
 
 Topic: Variables and basic data types
@@ -165,6 +162,10 @@ Topic: Variables and basic data types
 Instructions:
 Write a program that converts a temperature from Celsius to Fahrenheit.
 """
+def cal_fahr(n):
+    Celsius = 0
+    n = (Celsius * 9/5) + 32
+    return(n)
 
 """
 PROBLEM 2: Even or Odd Checker
@@ -183,7 +184,15 @@ Topic: Loops (for loop)
 Instructions:
 Write a program that takes a positive integer n and prints all numbers from 1 to n, one per line.
 """
+def counter(n):
+    i = 0
+    for (i != n):
+        i = n + 1
+    return i 
+        
 
+
+        
 """
 PROBLEM 4: Password Retry System
 
