@@ -175,6 +175,8 @@ Topic: Conditionals
 Instructions:
 Write a program that checks whether a number is even or odd.
 """
+result = []
+for i in range(len(lst))
 
 """
 PROBLEM 3: Count to Number
