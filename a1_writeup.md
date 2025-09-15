@@ -16,10 +16,10 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 After completing your problems, reflect on:
 
-1. **What was your initial experience with Python?** How did it compare to other programming languages you've used?
+1. **What was your initial experience with Python?** How did it compare to other programming languages you've used? My initial experience with Phyton was when I was enrolled in a program over the summer called Michigan Mentors and it was learning how to use python and its different imports like NumPy. Compared to other programming languages I've used it seems more simplied, meaning its easier to use and I dont really have to remember long import names and what not like in java.
 
-2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses.
+2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses. Iused AI to quiz me on some questions my physics teacher may ask on the quiz by giving it a variety of questions I did in class. Some prompts I used is when I asked Claude to summarize the passage from my AP Gov class in a way that a highschooler could easily understand the concept and give different examples of the topics.
 
-3. **What concepts were most challenging?** How did AI help you understand them?
+3. **What concepts were most challenging?** How did AI help you understand them? 
 
 4. **What did you learn about collaborating with AI?** What strategies worked best for learning rather than just getting answers?
