@@ -20,6 +20,6 @@ After completing your problems, reflect on:
 
 2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses. Iused AI to quiz me on some questions my physics teacher may ask on the quiz by giving it a variety of questions I did in class. Some prompts I used is when I asked Claude to summarize the passage from my AP Gov class in a way that a highschooler could easily understand the concept and give different examples of the topics.
 
-3. **What concepts were most challenging?** How did AI help you understand them? 
+3. **What concepts were most challenging?** How did AI help you understand them? Some concepts for me that were challenging was understanding the concept of position time graphs with velocity as well as acceleration. I asked AI to show me different position time graphs and asked it to quiz me on what the velocity time graph would look like as well as the acceleration time graph.
 
-4. **What did you learn about collaborating with AI?** What strategies worked best for learning rather than just getting answers?
+4. **What did you learn about collaborating with AI?** What strategies worked best for learning rather than just getting answers?When asking AI prompts the more detail you ask it to be the better the response toward your question would be. For example asking AI to pretend to be a teacer trying to teach a highschool student who has no idea on a certain topic in a simple way.

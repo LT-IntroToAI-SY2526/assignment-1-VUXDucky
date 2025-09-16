@@ -175,8 +175,16 @@ Topic: Conditionals
 Instructions:
 Write a program that checks whether a number is even or odd.
 """
-result = []
-for i in range(len(lst))
+def check(lst: int):
+    even = []
+    odd = []
+    for num in lst:
+        if num % 2 == 0:
+            even.append(num)
+        else:
+            odd.append(num)
+    return even and odd
+
 
 """
 PROBLEM 3: Count to Number
@@ -186,15 +194,11 @@ Topic: Loops (for loop)
 Instructions:
 Write a program that takes a positive integer n and prints all numbers from 1 to n, one per line.
 """
-def counter(n):
-    i = 0
-    for (i != n):
-        i = n + 1
-    return i 
+def counter(lst: int):
+    
         
 
 
-        
 """
 PROBLEM 4: Password Retry System
 
@@ -205,7 +209,14 @@ Write a program that lets the user try to enter a password. They have 3 attempts
 The correct password is "python123".
 If they enter it correctly, print "Access granted".
 If they fail 3 times, print "Access denied".
+"""
+def password(lst: str):
+    secret = "python123"
+    while lst != secret:
 
+    
+
+"""
 PROBLEM 5: Find the Maximum
 
 Topic: Lists and loops
@@ -216,6 +227,14 @@ Write a function called find_max(numbers) that takes a list of numbers and retur
 Input: A list of integers.
 Output: The largest integer in the list.
 """
+def find_max(lst: int):
+    max_numb = lst[0]
+    for num in lst[1:]:
+        if num > max_numb:
+            max_numb = num
+    return max_numb
+
+
 
 """
 PROBLEM 6:Sum of Multiples
@@ -225,7 +244,10 @@ Topic: Loops + Conditionals + Functions
 Instructions:
 Write a function sum_of_multiples(n) that returns the sum of all numbers from 1 to n that are divisible by 3 or 5.
 """
-
+def sum_of_multiples(lst: int):
+    for num in lst:
+        if num in lst // 3 or 5:
+            return num
 """
 PROBLEM 7:Remove Even Numbers
 
@@ -234,15 +256,12 @@ Topic: Lists + Loops + Functions
 Instructions:
 Write a function remove_evens(numbers) that takes a list of integers and returns a new list with all even numbers removed.
 """
-"""""
-Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
-
-Example inputs/outputs:
-- is_even(4) should return True
-- is_even(7) should return False
-"""
+def remove_even(lst: int):
+    odds = []
+    for num in lst:
+        if num % 2 == 0:
+            odds.append(num)
+    return odds
 
 
 
