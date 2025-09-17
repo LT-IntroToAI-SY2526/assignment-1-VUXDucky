@@ -20,16 +20,9 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-I'm learning Python basics in a high school programming class. I have some experience with [mention your previous programming language if any, or say 'I'm new to programming']. Can you create 5-7 practice problems that cover:
+Hey I am high school student learning the basics of Python, could you give me 5 practice problems that involve, Variables, Conditionals, Loops, List, and Functions.
 
-Variables and basic data types
-Conditionals (if/elif/else)
-Loops (for and while)
-Functions
-Basic list operations
-Make them progressively more challenging. Make sure each problem has clear instructions and example inputs/outputs.
-
-Example: "Problem 1: Temperature Converter
+Problem 1: Temperature Converter
 
 Topic: Variables and basic data types
 
@@ -61,49 +54,7 @@ Example:
 Input: 7
 Output: Odd
 
-✅ Problem 3: Count to Number
-
-Topic: Loops (for loop)
-
-Instructions:
-Write a program that takes a positive integer n and prints all numbers from 1 to n, one per line.
-
-Input: A positive integer.
-Output: A list of numbers from 1 to n.
-
-Example:
-
-Input: 5
-Output:
-1
-2
-3
-4
-5
-
-✅ Problem 4: Password Retry System
-
-Topic: Loops (while loop) + Conditionals
-
-Instructions:
-Write a program that lets the user try to enter a password. They have 3 attempts.
-The correct password is "python123".
-If they enter it correctly, print "Access granted".
-If they fail 3 times, print "Access denied".
-
-Example:
-
-Input: hello
-Input: pass
-Input: python123
-Output: Access granted
-
-Input: test
-Input: test2
-Input: test3
-Output: Access denied
-
-✅ Problem 5: Find the Maximum
+✅ Problem 3: Find the Maximum
 
 Topic: Lists and loops
 
@@ -118,7 +69,7 @@ Example:
 Input: [4, 9, 1, 22, 5]
 Output: 22
 
-✅ Problem 6: Sum of Multiples
+✅ Problem 4: Sum of Multiples
 
 Topic: Loops + Conditionals + Functions
 
@@ -134,7 +85,7 @@ Input: 10
 Output: 33
 # (3 + 5 + 6 + 9 + 10)
 
-✅ Problem 7: Remove Even Numbers
+✅ Problem 5: Remove Even Numbers
 
 Topic: Lists + Loops + Functions
 
@@ -185,39 +136,8 @@ def check(lst: int):
             odd.append(num)
     return even and odd
 
-
 """
-PROBLEM 3: Count to Number
-
-Topic: Loops (for loop)
-
-Instructions:
-Write a program that takes a positive integer n and prints all numbers from 1 to n, one per line.
-"""
-def counter(lst: int):
-    
-        
-
-
-"""
-PROBLEM 4: Password Retry System
-
-Topic: Loops (while loop) + Conditionals
-
-Instructions:
-Write a program that lets the user try to enter a password. They have 3 attempts.
-The correct password is "python123".
-If they enter it correctly, print "Access granted".
-If they fail 3 times, print "Access denied".
-"""
-def password(lst: str):
-    secret = "python123"
-    while lst != secret:
-
-    
-
-"""
-PROBLEM 5: Find the Maximum
+PROBLEM 3: Find the Maximum
 
 Topic: Lists and loops
 
@@ -237,7 +157,7 @@ def find_max(lst: int):
 
 
 """
-PROBLEM 6:Sum of Multiples
+PROBLEM 4:Sum of Multiples
 
 Topic: Loops + Conditionals + Functions
 
@@ -245,11 +165,13 @@ Instructions:
 Write a function sum_of_multiples(n) that returns the sum of all numbers from 1 to n that are divisible by 3 or 5.
 """
 def sum_of_multiples(lst: int):
+    total = 0
     for num in lst:
         if num in lst // 3 or 5:
-            return num
+            total += num
+            return total
 """
-PROBLEM 7:Remove Even Numbers
+PROBLEM 5:Remove Even Numbers
 
 Topic: Lists + Loops + Functions
 
@@ -259,7 +181,7 @@ Write a function remove_evens(numbers) that takes a list of integers and returns
 def remove_even(lst: int):
     odds = []
     for num in lst:
-        if num % 2 == 0:
+        if num % 2 != 0:
             odds.append(num)
     return odds
 
@@ -282,12 +204,17 @@ Test all your solutions with different inputs
 
 Add asserts if you feel comfortable
 
+
 Example:
 print("Testing Problem 1:")
 print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
 """
-
+assert cal_fahr(22) == 71.6, "Calculator failed"
+assert check([1, 2, 3, 4, 5]) == [2, 4] and [1, 3, 5], "Check failed"
+assert find_max([1, 2, 3, 4, 5]) == 5, "Find max failed"
+assert sum_of_multiples([1, 2, 3, 4, 5]) == 8, "Sum of multiples failed"
+assert remove_even([1, 2, 3, 4, 5]) == [1, 3, 5], "Remove even failed"
 print("Testing Problem 1:")
 # Add your tests here
 
